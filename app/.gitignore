@@ -1,0 +1,8 @@
+# Android Studio 자동 생성 무시 목록
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build/
+captures/
