@@ -10,7 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://naver.jfrog.io/artifactory/maven/' }
+        maven { url 'https://naver.jfrog.io/artifactory/maven/' } // 네이버 지도용
     }
 }
 rootProject.name = "MyNewCode2"

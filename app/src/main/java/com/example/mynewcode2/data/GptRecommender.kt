@@ -1,8 +1,11 @@
 package com.example.mynewcode2.data
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import retrofit2.HttpException
 import com.example.mynewcode2.network.RetrofitClient
 
+@RequiresApi(Build.VERSION_CODES.O)
 suspend fun getRecommendationsFromGPT(
     input: String,
     gender: String,
